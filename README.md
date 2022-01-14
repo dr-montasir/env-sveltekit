@@ -53,7 +53,7 @@ Check the validity of configuration by adding `process.env['KEY']` in any svelte
 `<script>`
   ...
   console.log(process.env['KEY']);    // 123456789
-  // Note. Don't write ccc to avoid returning the undefined value
+  // Note. Don't write proccess.env.KEY to avoid returning the undefined value
   console.log(process.env.KEY) // undefined
   ...
 `</script>`
